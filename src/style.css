@@ -1,1 +1,47 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+
+.card {
+  width: 300px;
+  height: 450px;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 250px;
+  background-color: white;
+  display: flex;
+}
+
+.headCard {
+  padding-top: 0px;
+  margin-bottom: 10px;
+}
+
+.palo {
+  font-size: 90px;
+  padding-left: 5px;
+  position: absolute;
+  top: 0;
+}
+
+.palo2 {
+  font-size: 90px;
+  float: right;
+}
+
+.centerCard {
+  font-size: 150px;
+  text-align: center;
+}
+
+.centerCard p {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.bottomCard {
+  padding-right: 10px;
+  font-size: 95px;
+  margin: 5px;
+}
